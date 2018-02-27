@@ -1,6 +1,7 @@
 [submodule "Zenko"]
 	path = Zenko
-	url = https://github.com/scality/Zenko
+    url = https://github.com/scality/Zenko
+    branch = FT/aggregated_doc
 [submodule "S3"]
 	path = S3
 	url = https://github.com/scality/S3
