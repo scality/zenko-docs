@@ -1,0 +1,6 @@
+[submodule "Zenko"]
+	path = Zenko
+	url = https://github.com/scality/Zenko
+[submodule "S3"]
+	path = S3
+	url = https://github.com/scality/S3
