@@ -5,6 +5,6 @@ Zenko
    :maxdepth: 2
    :caption: Zenko Stack Documentation
 
-   zenkodocs/GETTING_STARTED
-   zenkodocs/swarm_production_link/README
-   cloudserverdocs/USING_PUBLIC_CLOUDS
+   Zenko/docs/GETTING_STARTED
+   Zenko/docs/swarm_production_link/README
+   S3/docs/USING_PUBLIC_CLOUDS

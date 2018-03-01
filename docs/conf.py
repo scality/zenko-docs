@@ -17,8 +17,8 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys
-import os
+# import sys
+# import os
 import recommonmark
 from recommonmark.parser import CommonMarkParser
 #         from recommonmark.transform import AutoStructify
@@ -26,9 +26,7 @@ from recommonmark.parser import CommonMarkParser
 # If your extensions are in another directory, add it here. If the directory
 # is relative to the documentation root, use os.path.abspath to make it
 # absolute, like shown here.
-sys.path.append(os.path.abspath('.'))
-sys.path.append(os.path.abspath('../Zenko/docs/'))
-sys.path.append(os.path.abspath('../Zenko/docs/tutorial_sandbox/'))
+# sys.path.append(os.path.abspath('.'))
 
 # General configuration
 # ---------------------
@@ -55,7 +53,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'scality-zenko'
+project = u'Zenko: A MultiCloud Data Controller'
 copyright = u'Apache License Version 2.0, 2004 http://www.apache.org/licenses/'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -120,7 +118,7 @@ html_style = 'css/default.css'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = '../Zenko/res/zenko.io-logo-stacked-purple-cmyk.png'
+html_logo = './Zenko/res/zenko.io-logo-stacked-purple-cmyk.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
